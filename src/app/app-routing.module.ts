@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WorkComponent } from './work/work.component';
+import { InfoComponent } from './info/info.component';
 
 
 const routes: Routes = [
@@ -8,10 +9,10 @@ const routes: Routes = [
     path: 'work',
     component: WorkComponent
   },
-  // {
-  //   path: 'item/:id',
-  //   component: CharacterEditComponent
-  // },
+  {
+    path: 'info',
+    component: InfoComponent
+  },
   {
     path: '', redirectTo: 'work', pathMatch: 'full',
   }, {
