@@ -1,0 +1,58 @@
+.squares {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 700px;
+}
+
+.item {
+  height: 300px;
+  border: 1px solid black;
+  width: 390px;
+  margin-top: 10px;
+}
+
+.item.main {
+  width: 600px;
+  justify-self: center;
+  background-color: black;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.remaining {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: space-evenly;
+}
+
+.orange {
+  background-color: #ee6d47;
+}
+
+.amarelo {
+  background-color: #f7bf43;
+}
+
+@media all and (max-width: 500px) {
+  .squares {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100vw;
+  }
+  .remaining {
+    grid-template-columns: 100%;
+  }
+  .item {
+    height: 300px;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .item.main {
+    width: 100%;
+  }
+  /* CSS rules here for screens lower than 750px */
+}
