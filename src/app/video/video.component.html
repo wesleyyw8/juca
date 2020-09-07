@@ -1,31 +1,14 @@
 <div class="squares">
   <div class="item main">
-
+    <iframe src="https://player.vimeo.com/video/405222994" width="1000" height="500" frameborder="0"
+      allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
-  <div class="item container">
-    <h1>Title</h1>
-    <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-      ali
-      quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-      ut
-      aliquip ex ea</p>
-    <div class="orange"></div>
-  </div>
-
-  <div class="item container">
-    <h1>Title</h1>
-    <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali
-      quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-      aliquip ex ea</p>
-    <div class="amarelo"></div>
-  </div>
-
-  <div class="item container">
-    <h1>Title</h1>
-    <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali
-      quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-      aliquip ex ea</p>
-    <div class="orange"></div>
+  <div class="item container" *ngFor="let square of data?.squares">
+    <h1>{{square.title}}</h1>
+    <p>{{square.description}}</p>
+    <div class="orange">
+      <img [src]="square.img">
+    </div>
   </div>
 
 </div>

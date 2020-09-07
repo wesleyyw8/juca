@@ -10,12 +10,13 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class VideoComponent implements OnInit, OnDestroy {
   private routeSub: Subscription;
+  public data;
   constructor(private route: ActivatedRoute, private dataService: DataService) { }
 
   ngOnInit(): void {
     this.routeSub = this.route.params.subscribe(params => {
       this.dataService.get(params['id']).subscribe(data => {
-        console.log(data);
+        this.data = data;
       });
     });
   }

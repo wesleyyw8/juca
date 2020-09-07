@@ -1,0 +1,16 @@
+{
+  "video": "https://vimeo.com/405222994",
+  "main_text": "main text",
+  "squares": [
+    {
+      "img": "/assets/video_data/bla.jpg",
+      "title": "text for title",
+      "description": "Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea"
+    },
+    {
+      "img": "/assets/video_data/bla.jpg",
+      "title": "text for ASDHAHSUDIASHUID",
+      "description": "Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea"
+    }
+  ]
+}
