@@ -11,6 +11,6 @@ export class DataService {
 
   get(videoId) {
     const url = environment.squaresEndpoint;
-    return this.http.get(`${url}?id=${videoId}`);
+    return this.http.get(`${url}${videoId}.json`);
   }
 }

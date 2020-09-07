@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  squaresEndpoint: './assets/video_data/video1.json'
+  squaresEndpoint: './assets/video_data/video'
 };
 
 /*
