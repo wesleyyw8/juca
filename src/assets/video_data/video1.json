@@ -1,0 +1,15 @@
+{
+  "video": "https://vimeo.com/405222994",
+  "main_text": "main text",
+  "images": [
+	  {
+	    "src": "/assets/bla.png",
+	    "title": "text for title"
+	  },
+	  {
+	    "src": "/assets/bla2.png",
+	    "title": "text for title2"
+	  }
+  ]
+
+}
